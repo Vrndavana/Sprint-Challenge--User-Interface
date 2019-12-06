@@ -56,6 +56,66 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    display:flex;
+    justify-content: center;
+    margin:10px;
+    
+    
+}
+
+header a{
+    padding:40px;
+    text-decoration: none;
+}
+
+header nav {
+    display:flex;
+
+}
+
+.logo a{
+    font-size:25px;
+    padding: 0 30px 0 0;
+}
+
+
+nav img{
+    width:30px;
+    height: auto;
+    
+}
+
+.logo {
+    margin: 20px;
+}
+
+
+
+.road img{
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    padding: 0 0 30px 0;
+    
+}
+
+.city img{
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    padding: 0 0 30px 0;
+    
+}
+
+
+.about {
+    margin:50px 350px;
+    border-bottom: 2px solid grey;
+}
+
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -64,6 +124,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    padding: 0 0 20px 0;
 }
 
 .container {
@@ -101,16 +162,126 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+
+
+
+
+
+
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: rgb(57, 121, 204);
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(171, 204, 24);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(62, 207, 188);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(192, 76, 9);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(255, 0, 0);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(7, 173, 34);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(163, 11, 177);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(218, 21, 191);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(177, 13, 149);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(35, 77, 194);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +314,41 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+/* ABOUT PAGE STUFF  */
+/* ABOUT PAGE STUFF  */
+/* ABOUT PAGE STUFF  */
+/* ABOUT PAGE STUFF  */
+/* ABOUT PAGE STUFF  */
+/* ABOUT PAGE STUFF  */
+/* ABOUT PAGE STUFF  */
+/* ABOUT PAGE STUFF  */
+/* ABOUT PAGE STUFF  */
+/* ABOUT PAGE STUFF  */
+
+.bflex {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.square {
+    margin:5px;
+    width: 40%;
+    padding:10px 10px 40px 10px;
+    border-bottom: 2px dotted grey;
+}
+
+.square a {
+    border: 1px solid rgb(68, 50, 83);
+    padding:10px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color:lightblue;
+    margin: 0 0 10px 0;
 }
